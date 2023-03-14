@@ -1,4 +1,6 @@
-To run this file you need to "docker compose up"
+To run this file you need to:
+
+`docker compose up`
 
 Here are the urls for you to run with postman or thunderclient (check out thunderclient, its postman but an extension for VS code) or what have you.
 
@@ -27,7 +29,8 @@ I also moved the client into services as it's own service to be able to move thi
 
 Tests:
 This covers deletion and overwriting:
-docker-compose exec app sh -c "cd tests && go test -v endpoint_test.go"
+
+`docker-compose exec app sh -c "cd tests && go test -v endpoint_test.go"`
 
 In here, I use requests to create a key-value and then either delete them with another request or I overwrite them with another post request.
 
