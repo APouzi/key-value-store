@@ -11,6 +11,7 @@ http://localhost:8000/store
 
 
 GET: http://localhost:8000/store/WHATEVER_KEY
+
 DELETE: http://localhost:8000/store/WHATEVER_KEY
 
 As you can see, I followed the REST api practices. This handles GET, POST and DELETE HTTP keywords. 
